@@ -79,7 +79,6 @@ class Record:
         return (date(year=int(y), month=int(m), day=int(d)) - now).days
 
 
-
 class AddressBook(UserDict):
     MAX_VALUE = 2
 
